@@ -1,27 +1,87 @@
-# Python
+# === Python Compiled Files ===
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
+*$py.class
+
+# === Django ===
 *.log
 *.pot
 *.pyc
-
-# Django
+*.pyo
+*.pyd
 db.sqlite3
+db.sqlite3-journal
 /static/
 media/
+.env
+.envrc
 
-# Virtual environment
+# === Virtual Environments ===
 venv/
 env/
-Scripts/
+.venv/
+ENV/
+env.bak/
+venv.bak/
 Lib/
+Scripts/
 pyvenv.cfg
 
-# VS Code
+# === IDEs & Editors ===
 .vscode/
+.idea/
+.spyderproject
+.spyproject
+.ropeproject
 
-# System files
+# === Packaging ===
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+share/python-wheels/
+MANIFEST
+
+# === System Files ===
 *.lnk
 desktop.ini
+.DS_Store
+Thumbs.db
+
+# === Testing & Coverage ===
+htmlcov/
+.tox/
+.nox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.pytest_cache/
+
+# === Documentation ===
+docs/_build/
+site/
+
+# === Ruff, MyPy, Pytype ===
+.ruff_cache/
+.mypy_cache/
+.pytype/
+.dmypy.json
+dmypy.json
+
+# === Jupyter ===
+.ipynb_checkpoints
+
+# === Abstra / Cursor ===
+.abstra/
+.cursorignore
+.cursorindexingignore
+
+# === Misc ===
+__pypackages__/
+cython_debug/
+marimo/_static/
+marimo/_lsp/
+__marimo__/
